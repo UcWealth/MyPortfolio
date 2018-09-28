@@ -1,0 +1,47 @@
+/*This is for my about page in portfolio website*/
+
+    body {
+	        display: flex;
+    			background-image: url("paris_sunset1.jpg");
+		    	background-size: cover;
+			    background-position: center;
+			    background-repeat: no-repeat;
+	        background-attachment: fixed;
+	        background-color: red;
+	      }
+
+    #aboutme    {
+                  
+                  background-color: rgba(0,0,0,.7);
+                  width: 40%;
+                  margin-left: auto; 
+                  margin-right: auto; 
+                  padding: 20px;
+                  border-radius: 30px;
+                  color: white;
+                  box-shadow: 3px 3px 3px black;
+                }
+
+    a       {
+    	    text-decoration: none;
+    	    /*display: inline-block;*/
+    	    margin: 6px;
+    	    box-shadow: 2px 2px 2px #1a1110;
+    	    border-style: ;
+    	    border-radius: 10px;
+    	    padding: 3px;
+    	    background-color:tomato;
+    	    color: lime;
+    	     }
+    	    
+    a:hover {
+    	       background-color: lime;
+    	       box-shadow: 4px 4px 4px #483c32;
+    	       color: #690f03;
+    	       border: none;
+             text-decoration: none;
+            }
+
+    #nav       {
+    	       margin-left: 13em;
+               }

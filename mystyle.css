@@ -1,0 +1,73 @@
+/*This is the css for my portfolio website*/
+
+        body {
+			background-color: #110000;
+			color: #ffffff;
+      /*height:auto;*/
+}
+
+ .container-fluid {
+            width: 70%;
+            margin: auto; 
+            padding: 10px;
+ }
+        
+        #nav {
+        	   float: right;
+             margin-right: 15%;
+}
+
+        #nav a {        
+            color: lime;
+        }
+
+        #nav a:hover {
+          color: tomato;
+          text-decoration: none;
+        }
+       
+        a {
+        	margin-left: 25px;
+          text-decoration: none;
+          border: none;
+          color: white;        
+}
+        
+        a:hover {
+        	color: lime;
+          text-decoration: none;
+}
+        
+        #first {
+        	height: 7em;
+        	margin-top: 3em;
+}
+
+          #second {
+            margin-top: 5em;
+}
+        
+        .sectiona {
+        	margin-left: ;
+        	float: left;
+          clear: left;
+}        
+        .sectionb {
+        	float: left;
+          clear: right;
+        	margin-left: 5em;
+          border-radius: 30px;
+  }
+
+         @media screen and (max-width: 800px) {
+                      
+            body {
+              width: 100%;
+              display: block;
+            }
+            .sectionb {
+              margin-left: 3px;
+              height: auto;
+              width: 25%;
+            }
+   }
